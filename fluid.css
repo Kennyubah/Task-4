@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header, main, footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #8b0000;
+  color: white;
+  padding: 2%;
+}
+
+nav a {
+  color: white;
+  margin-right: 3%;
+}
+
+.content {
+  display: flex;
+  gap: 4%;
+}
+
+.menu {
+  width: 65%;
+  padding: 2%;
+}
+
+.specials {
+  width: 31%;
+  padding: 2%;
+  background: #f5f5f5;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 2%;
+}
